@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel='icon' href='/images/umbrella.svg' type='image/x-icon'/ >
+    <title>Paraply | Will you need an umbrella?</title>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="/index.html">-Home-</a>
+      <a href="/about.html">-About me-</a>
+    </div>
+
+    <div class="paraply">
+      Umbrella?
+    </div>
+
+    <div class="weather"></div>
+
+    <div class="paragraf">
+      Should you bring an umbrella today?
+    </div>
+
+    <div class="input">
+      <div class="inputtext">
+        <label for="location"></label>
+        <input
+          type="text"
+          id="location"
+          name="location"
+          placeholder="Location"
+        />
+      </div>
+    </div>
+
+    <div class="buttonmaster">
+      <div class="button">
+        <button id="button" class="button" onclick="getInputValue();">
+          Search
+        </button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

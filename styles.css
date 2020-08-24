@@ -1,0 +1,130 @@
+body {
+  background-image: url(images/photo-1469122312224-c5846569feb1.jpeg);
+  background-size: 2000px, cover;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  color: inherit;
+  font-size: 20px;
+  padding-left: 12px;
+}
+
+a:hover {
+  color: rgb(77, 211, 117);
+}
+
+.paraply {
+  text-align: center;
+  font-size: 130px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+.weather {
+  text-align: center;
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+
+.paragraf {
+  text-align: center;
+  font-size: x-large;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.input {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+input[type="text"]:focus {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+input[type="text"],
+select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.textinput {
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10;
+}
+
+.buttonmaster {
+  text-align: center;
+}
+.button {
+  background-color: #6fdb86;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+}
+
+@media only screen and (max-width: 700px) {
+  .paraply {
+    font-size: 65px;
+  }
+
+  input[type="text"],
+  select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type="text"]:focus {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+}
